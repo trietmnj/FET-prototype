@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chart-fet-demo"
+version = "0.1.0"
+description = ""
+authors = ["tmnj <triet.nguyen@usace.army.mil>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+h5py = "^3.12.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
